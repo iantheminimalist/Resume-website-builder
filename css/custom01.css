@@ -1,0 +1,91 @@
+section {
+  padding: 25px 0 35px;
+  background: #fff;
+}
+
+.parallax-container {
+  height: 400px;
+  width: 100%;
+}
+
+pre {
+  overflow: auto;
+}
+
+pre code {
+  word-wrap: normal;
+  white-space: pre;
+}
+
+footer {
+  background: #000;
+  color: #ddd;
+  padding: 30px 0 30px;
+  text-align: center;
+}
+
+footer a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #eee;
+  text-decoration: underline;
+}
+/*=================================
+Parallax Effect
+===================================*/
+.parimg-1, .parimg-2, .parimg-3 {
+  position: relative;
+  background-color: black;
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parimg-1 {
+  background-image: url("/img/flower.JPG");
+  min-height: 100%;
+}
+
+.parimg-2 {
+  background-image: url("/img/DSC00504.JPG");
+  min-height: 400px;
+}
+
+.parimg-3 {
+  background-image: url("/img/DSC00570.JPG");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+span.paraBorder{
+  margin: 30px;
+  opacity: 0.6;
+  color: #fff;
+  padding: 18px;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.caption span.border {
+  margin: 30px;
+  background-color: #111;
+  border: 1px solid black;
+  opacity: 0.6;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
