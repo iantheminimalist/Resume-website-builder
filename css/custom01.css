@@ -2,7 +2,11 @@ section {
   padding: 25px 0 35px;
   background: #fff;
 }
-
+body {
+    position: relative;
+    overflow-y: auto;
+ /* padding for fixed navbar */
+}
 .parallax-container {
   height: 400px;
   width: 100%;
@@ -37,19 +41,59 @@ footer a:hover {
 Parallax Effect
 ===================================*/
 .parimg-1, .parimg-2, .parimg-3 {
-  position: relative;
-  background-color: black;
-  opacity: 0.75;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    color: white;
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.btn-outline-trans {
+  color: #fff;
+  background-image: none;
+  background-color: transparent;
+      border-color: #fff;
+}
+
+
+.nav-white{
+    color: #fff;
+}
+.bg-transpar{
+  background-color: transparent;
+    color: #fff;
+}
+
+.btn-outline-trans:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #0275d8;
+}
+
+
+.blended {
+  background-color: rgba(0,0,0, 0.5);
+  background-blend-mode: multiply;
+    
+}
+
+.blendedBlue {
+      background-color: rgba(63, 140, 191, 0.6);
+  background-blend-mode: multiply;
 
 }
-.parimg-1 {
+.blendedPink{background-color: rgba(191, 63, 131, 0.43);
+  background-blend-mode: multiply;
+}
+
+.parimg-1{
   background-image: url("/img/flower.JPG");
   min-height: 100%;
 }
+
 
 .parimg-2 {
   background-image: url("/img/DSC00504.JPG");
@@ -64,23 +108,50 @@ Parallax Effect
 .caption {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 15%;
+  padding: 0px;
   width: 100%;
   text-align: center;
-  color: #000;
+  color: #fff;
 }
 
 span.paraBorder{
-  margin: 30px;
-  opacity: 0.6;
+  margin: 50px 0px;
   color: #fff;
-  padding: 18px;
+  padding: 0px;
   font-size: 20px;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
 }
 
-.caption span.border {
-  margin: 30px;
+.caption2 {
+  position: absolute;
+  left: 0;
+  top: 35%;
+  padding: 18px;
+    width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.card-block {
+    margin-bottom: 15px;
+}
+
+.changingSpace {
+    margin-bottom: 10px;
+}
+
+.hrWht{
+    border: 1px solid #ccc;
+    width :50%;
+}
+
+.hrWhtlong{
+    border: 1px solid #ccc;
+    width :100%;
+}
+
+.caption2 span.border {
+  margin: 30px 0px;
   background-color: #111;
   border: 1px solid black;
   opacity: 0.6;
