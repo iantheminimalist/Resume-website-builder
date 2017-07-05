@@ -1,6 +1,6 @@
 section {
-  padding: 25px 0 35px;
-  background: #fff;
+    padding: 25px 0 35px;
+    background: #fff;
 }
 body {
     position: relative;
@@ -8,34 +8,34 @@ body {
  /* padding for fixed navbar */
 }
 .parallax-container {
-  height: 400px;
-  width: 100%;
+    height: 400px;
+    width: 100%;
 }
 
 pre {
-  overflow: auto;
+    overflow: auto;
 }
 
 pre code {
-  word-wrap: normal;
-  white-space: pre;
+    word-wrap: normal;
+    white-space: pre;
 }
 
 footer {
-  background: #000;
-  color: #ddd;
-  padding: 30px 0 30px;
-  text-align: center;
+    background: #000;
+    color: #ddd;
+    padding: 30px 0 30px;
+    text-align: center;
 }
 
 footer a {
-  color: #ddd;
-  text-decoration: none;
+    color: #ddd;
+    text-decoration: none;
 }
 
 footer a:hover {
-  color: #eee;
-  text-decoration: underline;
+    color: #eee;
+    text-decoration: underline;
 }
 /*=================================
 Parallax Effect
@@ -52,10 +52,10 @@ Parallax Effect
 }
 
 .btn-outline-trans {
-  color: #fff;
-  background-image: none;
-  background-color: transparent;
-      border-color: #fff;
+    color: #fff;
+    background-image: none;
+    background-color: transparent;
+    border-color: #fff;
 }
 
 
@@ -63,20 +63,21 @@ Parallax Effect
     color: #fff;
 }
 .bg-transpar{
-  background-color: transparent;
+    background-color: transparent;
     color: #fff;
+   transition: background-color 0.5s ease 0s;
 }
 
 .btn-outline-trans:hover {
-  color: #000;
-  background-color: #fff;
-  border-color: #0275d8;
+    color: #000;
+    background-color: #fff;
+    border-color: #0275d8;
 }
 
 
 .blended {
-  background-color: rgba(0,0,0, 0.5);
-  background-blend-mode: multiply;
+    background-color: rgba(0,0,0, 0.5);
+    background-blend-mode: multiply;
     
 }
 
@@ -85,52 +86,53 @@ Parallax Effect
   background-blend-mode: multiply;
 
 }
-.blendedPink{background-color: rgba(191, 63, 131, 0.43);
-  background-blend-mode: multiply;
+.blendedPink{
+    background-color: rgba(191, 63, 131, 0.43);
+    background-blend-mode: multiply;
 }
 
 .parimg-1{
-  background-image: url("/img/flower.JPG");
-  min-height: 100%;
+    background-image: url("/img/flower.JPG");
+    min-height: 100%;
 }
 
 
 .parimg-2 {
-  background-image: url("/img/DSC00504.JPG");
-  min-height: 400px;
+    background-image: url("/img/DSC00504.JPG");
+    min-height: 400px;
 }
 
 .parimg-3 {
-  background-image: url("/img/DSC00570.JPG");
-  min-height: 400px;
+    background-image: url("/img/DSC00570.JPG");
+    min-height: 400px;
 }
 
 .caption {
-  position: absolute;
-  left: 0;
-  top: 15%;
-  padding: 0px;
-  width: 100%;
-  text-align: center;
-  color: #fff;
+    position: absolute;
+    left: 0;
+    top: 15%;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
 }
 
 span.paraBorder{
-  margin: 50px 0px;
-  color: #fff;
-  padding: 0px;
-  font-size: 20px;
-  letter-spacing: 3px;
+    margin: 50px 0px;
+    color: #fff;
+    padding: 0px;
+    font-size: 20px;
+    letter-spacing: 3px;
 }
 
 .caption2 {
-  position: absolute;
-  left: 0;
-  top: 35%;
-  padding: 18px;
+    position: absolute;
+    left: 0;
+    top: 35%;
+    padding: 18px;
     width: 100%;
-  text-align: center;
-  color: #fff;
+    text-align: center;
+    color: #fff;
 }
 .card-block {
     margin-bottom: 15px;
@@ -151,12 +153,12 @@ span.paraBorder{
 }
 
 .caption2 span.border {
-  margin: 30px 0px;
-  background-color: #111;
-  border: 1px solid black;
-  opacity: 0.6;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+    margin: 30px 0px;
+    background-color: #111;
+    border: 1px solid black;
+    opacity: 0.6;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
 }
