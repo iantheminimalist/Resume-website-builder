@@ -28,6 +28,22 @@ footer {
     text-align: center;
 }
 
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-toggler:focus,
+.navbar-inverse .navbar-toggler:hover {
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.navbar-inverse .navbar-nav .open > .nav-link,
+.navbar-inverse .navbar-nav .active > .nav-link,
+.navbar-inverse .navbar-nav .nav-link.open,
+.navbar-inverse .navbar-nav .nav-link.active {
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+
 footer a {
     color: #ddd;
     text-decoration: none;
@@ -48,6 +64,7 @@ Parallax Effect
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
     
 }
 
@@ -92,48 +109,24 @@ Parallax Effect
 }
 
 .parimg-1{
-    background-image: url("/img/flower.JPG");
-    min-height: 100%;
+    background-image: url('../img/flower.JPG');
+    min-height: 800px;
+    max-width: inherit;
 }
 
 
 .parimg-2 {
-    background-image: url("/img/DSC00504.JPG");
+    background-image: url('../img/DSC00504.JPG');
     min-height: 400px;
 }
 
 .parimg-3 {
-    background-image: url("/img/DSC00570.JPG");
+    background-image: url('../img/DSC00570.JPG');
     min-height: 400px;
 }
 
-.caption {
-    position: absolute;
-    left: 0;
-    top: 15%;
-    padding: 0px;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-}
 
-span.paraBorder{
-    margin: 50px 0px;
-    color: #fff;
-    padding: 0px;
-    font-size: 20px;
-    letter-spacing: 3px;
-}
 
-.caption2 {
-    position: absolute;
-    left: 0;
-    top: 35%;
-    padding: 18px;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-}
 .card-block {
     margin-bottom: 15px;
 }
@@ -143,22 +136,69 @@ span.paraBorder{
 }
 
 .hrWht{
-    border: 1px solid #ccc;
-    width :50%;
+    border: 0.5px solid #ccc;
+    width :75%;
 }
 
+/* Gradient transparent - color - transparent */
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+hr.style-wht {
+    border: 0;
+    width: 50%;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    background-image: -moz-linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    background-image: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+
+}
+
+.display-5 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.hrBlk{
+    border: 1px solid #000;
+    width :50%;
+}
 .hrWhtlong{
     border: 1px solid #ccc;
     width :100%;
 }
 
-.caption2 span.border {
-    margin: 30px 0px;
-    background-color: #111;
-    border: 1px solid black;
-    opacity: 0.6;
+.caption {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
     color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
 }
+
+.caption2 {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+
+span.paraBorder{
+    margin: 50px 0px;
+    color: #fff;
+    padding: 0px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
