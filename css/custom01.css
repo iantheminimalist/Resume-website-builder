@@ -44,6 +44,7 @@ footer {
 }
 
 
+
 footer a {
     color: #ddd;
     text-decoration: none;
@@ -114,15 +115,21 @@ Parallax Effect
     max-width: inherit;
 }
 
+.text-muted2{
+  color: #d9d9d9;  
+}
+
 
 .parimg-2 {
     background-image: url('../img/DSC00504.JPG');
-    min-height: 400px;
+    min-height: 600px;
+        max-width: inherit;
 }
 
 .parimg-3 {
     background-image: url('../img/DSC00570.JPG');
-    min-height: 400px;
+    min-height: 600px;
+        max-width: inherit;
 }
 
 
@@ -135,10 +142,7 @@ Parallax Effect
     margin-bottom: 10px;
 }
 
-.hrWht{
-    border: 0.5px solid #ccc;
-    width :75%;
-}
+
 
 /* Gradient transparent - color - transparent */
 
@@ -159,18 +163,62 @@ hr.style-wht {
 }
 
 .display-5 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.1;
 }
 
+.display-6 {
+  font-size: 1.0rem;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.display-7 {
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+/**================
+Customer Headers
+==================**/
+/**** Custom Black  Header Line ****/
 .hrBlk{
     border: 1px solid #000;
     width :50%;
 }
+/**** Custom Black  Header Line ****/
 .hrWhtlong{
     border: 1px solid #ccc;
     width :100%;
+}
+
+.hrWht{
+    border: 0.5px solid #ccc;
+    width :75%;
+}
+
+.hrBlkThin{
+    border: 0.5px solid #000;
+    width :75%;
+}
+
+.Blkparaborder{
+        margin: 50px 0px;
+    color: #000;
+    padding: 0px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    
+}
+
+span.paraBorder{
+    margin: 50px 0px;
+    color: #fff;
+    padding: 0px;
+    font-size: 20px;
+    letter-spacing: 3px;
 }
 
 .caption {
@@ -194,11 +242,4 @@ hr.style-wht {
 }
 
 
-span.paraBorder{
-    margin: 50px 0px;
-    color: #fff;
-    padding: 0px;
-    font-size: 20px;
-    letter-spacing: 3px;
-}
 
