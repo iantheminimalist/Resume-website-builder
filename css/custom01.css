@@ -1,50 +1,28 @@
-section {
-    padding: 25px 0 35px;
+    section {
+    padding: 20px 0 ;
     background: #fff;
 }
-body {
-    position: relative;
-    overflow-y: auto;
- /* padding for fixed navbar */
-}
-.parallax-container {
-    height: 400px;
-    width: 100%;
-}
-
-pre {
-    overflow: auto;
-}
-
-pre code {
-    word-wrap: normal;
-    white-space: pre;
-}
-
-footer {
-    background: #000;
-    color: #ddd;
-    padding: 30px 0 30px;
-    text-align: center;
-}
-
-.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-toggler:focus,
-.navbar-inverse .navbar-toggler:hover {
-    color: white;
-    border-bottom: 3px solid white;
-}
+/**=================================
+Highlighting navbar Effect
+=================================**/
 
 .navbar-inverse .navbar-nav .open > .nav-link,
 .navbar-inverse .navbar-nav .active > .nav-link,
 .navbar-inverse .navbar-nav .nav-link.open,
 .navbar-inverse .navbar-nav .nav-link.active {
     color: white;
-    border-bottom: 3px solid white;
+    border-bottom: 2px solid white;
+}
+.custom-nav {
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:    0px 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow:         0px 0px 0px rgba(0, 0, 0, 0.5);
+    z-index:100%;
 }
 
-
-
+/*=================================
+Footer Effect
+===================================*/
 footer a {
     color: #ddd;
     text-decoration: none;
@@ -66,9 +44,46 @@ Parallax Effect
     background-repeat: no-repeat;
     background-size: cover;
     
-    
 }
 
+.blended {
+    background-color: rgba(0,0,0, 0.5);
+    background-blend-mode: multiply;    
+}
+
+.blendedBlue {
+
+    background-color: rgba(63, 140, 191, 0.5);
+    background-blend-mode: multiply;
+}
+
+.blendedPink{
+    background-color: rgba(191, 63, 131, 0.43);
+    background-blend-mode: multiply;
+}
+
+
+.parimg-1{
+    background-image: url('../img/IMG_1029.JPG');
+    min-height: 700px;
+    max-width: inherit;
+}
+
+.parimg-2 {
+    background-image: url('../img/IMG_09081.JPG');
+    min-height: 700px;
+    max-width: inherit;
+}
+
+.parimg-3 {
+    background-image: url('../img/IMG_0911.JPG');
+    min-height: 700px;
+        max-width: inherit;
+}
+
+/*=================================
+Custom Button Effect
+===================================*/
 .btn-outline-trans {
     color: #fff;
     background-image: none;
@@ -76,75 +91,36 @@ Parallax Effect
     border-color: #fff;
 }
 
-
-.nav-white{
-    color: #fff;
+.btn-outline-trans:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #f0f0f0;
 }
+
 .bg-transpar{
     background-color: transparent;
     color: #fff;
    transition: background-color 0.5s ease 0s;
 }
 
-.btn-outline-trans:hover {
-    color: #000;
-    background-color: #fff;
-    border-color: #0275d8;
-}
 
-
-.blended {
-    background-color: rgba(0,0,0, 0.5);
-    background-blend-mode: multiply;
-    
-}
-
-.blendedBlue {
-      background-color: rgba(63, 140, 191, 0.6);
-  background-blend-mode: multiply;
-
-}
-.blendedPink{
-    background-color: rgba(191, 63, 131, 0.43);
-    background-blend-mode: multiply;
-}
-
-.parimg-1{
-    background-image: url('../img/flower.JPG');
-    min-height: 800px;
-    max-width: inherit;
-}
-
-.text-muted2{
-  color: #d9d9d9;  
-}
-
-
-.parimg-2 {
-    background-image: url('../img/DSC00504.JPG');
-    min-height: 600px;
-        max-width: inherit;
-}
-
-.parimg-3 {
-    background-image: url('../img/DSC00570.JPG');
-    min-height: 600px;
-        max-width: inherit;
-}
-
-
-
+/**========================================
+Card-block Codes to add spaces for cards 
+========================================**/
 .card-block {
     margin-bottom: 15px;
 }
-
-.changingSpace {
-    margin-bottom: 10px;
+.card-change{
+    margin: 10px 0 10px;
 }
 
+.ImgSpace {
+    margin: 25px 25px;
+}
 
-
-/* Gradient transparent - color - transparent */
+/**========================================
+Gradient transparent - color - transparent 
+========================================**/
 
 hr.style-two {
     border: 0;
@@ -159,7 +135,6 @@ hr.style-wht {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
     background-image: -moz-linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
     background-image: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
-
 }
 
 .display-5 {
@@ -180,15 +155,18 @@ hr.style-wht {
   line-height: 1.3;
 }
 
-/**================
+/**================================
 Customer Headers
-==================**/
+==================================**/
 /**** Custom Black  Header Line ****/
 .hrBlk{
-    border: 1px solid #000;
     width :50%;
 }
-/**** Custom Black  Header Line ****/
+.hrBlkLong{
+    border: 0.5px solid #000;
+    width :100%;
+}
+/**** Custom White Header Line ****/
 .hrWhtlong{
     border: 1px solid #ccc;
     width :100%;
@@ -204,19 +182,20 @@ Customer Headers
     width :75%;
 }
 
-.Blkparaborder{
-        margin: 50px 0px;
-    color: #000;
-    padding: 0px;
-    font-size: 20px;
-    letter-spacing: 3px;
-    
+
+.whthrLong{
+    border: 1px solid #fff;
+    width :100%;
+}
+.whthrLong2{
+    border: 1px solid #f0f0f0;
+    width :100%;
 }
 
 span.paraBorder{
     margin: 50px 0px;
     color: #fff;
-    padding: 0px;
+    padding: 0px 0px 0px;
     font-size: 20px;
     letter-spacing: 3px;
 }
@@ -231,15 +210,213 @@ span.paraBorder{
     color: #fff;
 }
 
-.caption2 {
-    position: absolute;
-    left: 0;
-    top: 40%;
-    padding: 10px;
-    width: 100%;
-    text-align: center;
-    color: #fff;
+/**========================================
+Custom Text Code 
+========================================**/
+.text-muted2{
+  color: #d9d9d9;  
+}
+
+.border-right {
+    border-right: 1px solid white;
+}
+/**========================================
+ Footer Custom Code 
+========================================**/
+.footer{
+     background-color: darkslategrey;
+}
+.footer-link {
+    display: block;
+    padding: 0.5em .5em;
+}
+.social-link {
+    margin-left: 10px; 
+}
+.summaryColor{
+    background-color: darkslategrey;
+    color :white;
+}
+
+footer {
+    background: #000;
+    color: #ddd;
+    padding: 30px 0 30px;
+    
+}
+
+/**========================================
+Bootstrap Text Changes
+========================================**/
+/**
+Display-# function changes when browser changes
+**/
+@media(min-width: 16em){
+
+    .imgChange{
+        width: 0%;
+        height: auto;
+    }
+    .header2e{
+        font-size: 1.7em;
+    }
+    .display-4 {
+	   font-size: 1.9em;
+    }
+    .mainCenter{
+        padding: 65px 0px 35px 0px;
+    }
+    img.imgWidth{
+        width: 150px;
+    }
+    .title-adjust{
+         text-align: center !important;
+    }
+}
+
+@media (min-width: 32em) {
+
+    .display-1 {
+	   font-size: 3.906em;
+    }
+    
+    .display-2 {
+	   font-size: 3.125em;
+    }
+    
+    .display-3 {
+	   font-size: 2.5em;
+    }
+    
+    .display-4 {
+	   font-size: 1.9em;
+    }
+    
+    .imgChange{
+        width: 0%;
+        height: auto;
+    }
+    .header2e{
+        font-size: 1.3em;
+    }
+    .mainCenter{
+    padding: 65px 0px 35px 0px;
+    }
+    img.imgWidth{
+        width: 200px;
+    }
+        .title-adjust{
+         text-align: center !important;
+    }
+}
+
+@media (min-width: 48em) {
+
+	.display-1 {
+		font-size: 6em;
+	}
+    
+	.display-2 {
+		font-size: 5.5em;
+	}
+    
+	.display-3 {
+		font-size: 4.5em;
+	}
+    
+	.display-4 {
+		font-size: 3.5em;
+	}
+    
+    .imgChange{
+        width: 100%;
+        height: auto;
+    }
+    
+    .header2e{
+        font-size: 1.3em;
+    }
+    .mainCenter{
+        padding: 65px 0px 35px 0px;
+    }
+    img.imgWidth{
+        width: 200px;
+    }
+        .title-adjust{
+         text-align: left !important;
+    }
 }
 
 
+/* Large devices (desktops, 62em and up)*/
+@media (min-width: 62em) {
+	html,
+	body {
+		font-size: 16px !important;
+	}
+
+    .imgChange{
+        width: 75%;
+        height: auto;
+    }
+    .header2e{
+        font-size: 1.3em;
+    }
+    .mainCenter{
+    padding: 65px 0 35px;
+    }
+    hr .custom-1{
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        height: 0;
+        overflow: visible;
+        visibility: hidden;
+    }
+    img.imgWidth{
+        width: 150px;
+    }
+}
+/* Extra large devices (large desktops, 75em and up)*/
+@media (min-width: 75em) {
+	html,
+	body {
+	}
+    .imgChange{
+    width: 75%;
+    height: auto;
+    }
+
+    .mainCenter{
+    padding: 65px 0 35px;
+}
+    img.imgWidth{
+        width: 150px;
+    }
+    hr.custom-1{
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        height: 0;
+        overflow: visible;
+        visibility: hidden;
+    }
+}
+/**========================================
+Progress-bar Changes
+========================================**/
+.textbox {
+  height: 700px;
+}
+
+.progress {
+  margin: 10px 10px;
+}
+
+.progress-bar {
+    width: 0;
+    height: 20px;
+}
+
+.target {
+  height: auto;
+}
 

@@ -1,0 +1,629 @@
+<html>    
+<head>
+    <!--CSS -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="css/custom01.css" rel="stylesheet">
+        
+    <!--JS -->
+<script>
+$(function () {
+  var nua = navigator.userAgent
+  var isAndroid = (nua.indexOf('Mozilla/5.0') > -1 && nua.indexOf('Android ') > -1 && nua.indexOf('AppleWebKit') > -1 && nua.indexOf('Chrome') === -1)
+  if (isAndroid) {
+    $('select.form-control').removeClass('form-control').css('width', '100%')
+  }
+})
+</script>
+    <!--[endif]-->
+</head>
+    
+<body class="body" data-spy="scroll" data-target="#navbarNavDropdown" data-offset="70">
+<nav class="navbar navbar-toggleable-md fixed-top navbar-inverse bg-transpar custom-nav">
+
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">IanPortfolio</a>
+    <div class="navbar-collapse collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item js-scroll-trigger"><a class="nav-link" href="#AboutMe">About Me</a></li>
+            <!--<li class="nav-item js-scroll-trigger"><a class="nav-link" href="#Home">Summary</a></li> -->
+            <li class="nav-item js-scroll-trigger"><a class="nav-link" href="#Skills">Technical Skills</a></li>
+            <li class="nav-item js-scroll-trigger"><a class="nav-link" href="#EDU">Education</a></li>
+            <li class="nav-item js-scroll-trigger"><a class="nav-link" href="#Features">Work Experiences</a></li>
+            <li class="nav-item js-scroll-trigger"><a class="nav-link" href="#Pricing">Contact</a></li> 
+        </ul>
+    </div>
+</nav>
+<!--********************************************************************************************************************--> 
+<div class="parimg-1 blended"  id="top" >
+    <div class="caption text-center" >
+        <span class="paraBorder">
+            <h1 class="display-4" >IanPortfolio.</h1>
+        </span>
+            <hr class="hrWht" />
+        <span class="text-justify paraBorder text-center">
+            <p id="startchange">
+                Everything that you need to know about Ian and more.
+            </p>
+        </span>
+    </div>
+</div>    
+<!--********************************************************************************************************************-->    
+<section id="AboutMe" class="mainCenter target">
+    <div class="container">
+        
+        <h1 class="text-center">About Me</h1>
+        <hr> 
+        <div class="row align-items-center card-block">
+
+            <div class="col-12 col-md-4 text-center">
+                <img src="img/IMG_0368smfixed.png" class="img-fluid img-responsive rounded-circle" width="250"> 
+
+            </div>
+            <div class="col-12 col-md-8 text-left title-adjust">
+                <h1 class="">Ian De Jesus</h1>
+                <h2 class=" display-4 ">Web Developer </h2>
+                <hr>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            
+        <div class="row align-items-center  card-block">
+            <div class="card-deck">
+            
+            <div class="col-12 col-lg-4 text-center">
+                <img src="icons/chat.png" class="ImgSpace imgWidth">
+            <h4 class="">Excellent Communication Skills</h4>
+            <hr>
+                <p class="">
+                    Deeply capable in conveying complex technical information in a clear and understandable manner.
+                </p>
+            </div>
+            <div class="col-12 col-lg-4 text-center">
+            <div class="card-body">
+            <img src="icons/pen_circle.png" class="card-img-top ImgSpace imgWidth">
+            <h4 class="card-title">Innovative and Dependable</h4>
+            <hr>
+            <p class="card-text">
+               Exceptionally creative and reliable with an outstanding customer service record and superb work ethic. Deep understanding of web development trends and Graphics designing. 
+            </p>
+             <!-- <hr class="custom-1"> -->
+            </div>
+            </div>
+            <div class="col-12 col-lg-4 text-center">
+            <div class="card-body">
+            <img src="icons/Comp.png" class="card-img-top ImgSpace imgWidth">
+            <h4 class="card-title">Versatile and Hardworking</h4>
+            <hr>
+            <p class="card-text">
+                Highly Acknowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction. Proven ability to adapt, construct, and optimize web functionality that improve data retrieval and workflow efficiencies. 
+            </p>
+             <!-- <hr class="custom-1"> -->
+            </div>
+            </div>   
+            
+            </div><!-- END OF CARD-DECK --->
+        </div>  <!---- END OF ROW part 2 ----->      
+        </div><!--- END OF ROW --->
+        
+<section>
+      <div class="container target">
+        <h1 class=" text-center">My Technical Skills</h1>
+        <hr class="hrWhtlong" />
+                
+        <div class="row  align-items-center card-block">
+            <div class="col-md-3 text-center">
+                 <h1 class="text-right">Web Designer</h1>
+            </div>
+            <div class="col-md-9">
+                <div class="row  align-items-center">
+                <div class="col-1 text-center">
+                    <img src="icons/JS_Logo_512Sm.png" width="40px">
+                    </div>    
+                
+                <div class="col-11">
+                    <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                        <p>70</p>
+                        </div>
+                    </div>
+                </div>
+                </div><!-- END OF ROW-->  
+                
+                <div class="row  align-items-center">
+                    <div class="col-1 text-center">
+                    <img src="icons/css3-logo-FD8D698B77-seeklogo.com.png" width="40px">
+                    </div>    
+                <div class="col-11">
+                    <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                       <p>85</p>
+                        </div>
+                    </div>
+                    </div>
+
+                </div><!-- END OF ROW-->
+                 
+                <div class="row  align-items-center">
+                <div class="col-1 text-center">
+                    <img src="icons/HTML5_LogoSm.png" width="40px">
+                    </div>    
+                <div class="col-11">
+                    <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <p>100</p>
+                        </div>
+                    </div>
+                    </div>
+
+                </div><!-- END OF ROW-->
+            
+            </div>
+        </div>    
+          
+    </div>
+</section>    
+<section>
+      <div class="container target">
+        <h1 class=" text-center">My Technical Skills</h1>
+        <hr class="hrWhtlong" />
+                
+        <div class="row  align-items-center card-block">
+            <div class="col-md-3 text-center">
+                 <h1 class="text-right">Web Designer</h1>
+            </div>
+            <div class="col-md-9">
+                <div class="row  align-items-center">
+                <div class="col-1 text-center">
+                    <img src="icons/JS_Logo_512Sm.png" width="40px">
+                    </div>    
+                
+                <div class="col-11">
+                    <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                        <p>70</p>
+                        </div>
+                    </div>
+                </div>
+                </div><!-- END OF ROW-->  
+                
+                <div class="row  align-items-center">
+                    <div class="col-1 text-center">
+                    <img src="icons/css3-logo-FD8D698B77-seeklogo.com.png" width="40px">
+                    </div>    
+                <div class="col-11">
+                    <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                       <p>85</p>
+                        </div>
+                    </div>
+                    </div>
+
+                </div><!-- END OF ROW-->
+                 
+                <div class="row  align-items-center">
+                <div class="col-1 text-center">
+                    <img src="icons/HTML5_LogoSm.png" width="40px">
+                    </div>    
+                <div class="col-11">
+                    <div class="progress">
+                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <p>100</p>
+                        </div>
+                    </div>
+                    </div>
+
+                </div><!-- END OF ROW-->
+            
+            </div>
+        </div>    
+          
+    </div>
+</section> 
+<!--****DESIGN #1*********************************************************************************************-->
+<!--        
+        <div class="row  align-items-center card-block">
+        <div class="col-12 col-lg-6 text-center">
+                <h1>Exceptional Communication Skills</h1>
+                <hr>
+                <p class="display-5">
+                Deeply capable in conveying complex technical information in a clear and understandable manner.
+                </p>
+            </div>
+        <div class="col-12 col-lg-6 text-center">
+            <img src="icons/chat.png" class="ImgSpace imgWidth">
+
+            </div>   
+        </div>
+
+        <div class="row  align-items-center card-block">
+       
+        <div class="col-12 col-lg-6 text-center">
+            <img src="icons/Comp.png" class="ImgSpace imgWidth">
+
+            </div>
+         <div class="col-12 col-lg-6 text-center">
+                <h1>Versatile and Hardworking</h1>
+                <hr>
+                <p class="display-5">
+                Highly Acknowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction. Proven ability to adapt, construct, and optimize web functionality that improve data retrieval and workflow efficiencies. 
+                </p>
+            </div>    
+        
+        </div>
+        
+        <div class="row  align-items-center card-block">
+            
+            <div class="col-12 col-lg-6 text-center">
+                <h1>Innovative and Dependable</h1>
+                <hr>
+                <p class="display-5">
+               Exceptionally creative and reliable with an outstanding customer service record and superb work ethic. Deep understanding of web development trends and Graphics designing. 
+                </p>
+            </div>    
+        
+        <div class="col-12 col-lg-6 text-center">
+            <img src="icons/pen_circle.png" class="ImgSpace imgWidth">
+
+            </div>
+
+        </div>
+        <hr>
+-->
+<!--****DESIGN #2*********************************************************************************************-->
+<!--        
+        <div class="row  align-items-center card-block">
+        <div class="col-12 col-lg-4 text-center">
+                <h1 class="">Exceptional Communication Skills</h1>
+            </div>
+        <div class="col-12 col-lg-4 text-center">
+            <img src="icons/chat.png" class="ImgSpace imgWidth">
+
+            </div>
+        <div class="col-12 col-lg-4 text-center">
+            <p class="display-5">
+                Deeply capable in conveying complex technical information in a clear and understandable manner.
+            </p>
+            </div>    
+        </div>
+        
+        <div class="row  align-items-center card-block">
+        <div class="col-12 col-lg-4 text-center">
+                <h3>Versatile and Hardworking</h3>
+            </div>
+        <div class="col-12 col-lg-4 text-center">
+            <img src="icons/Comp.png" class="ImgSpace imgWidth">
+
+            </div>  
+        <div class="col-12 col-lg-4 text-center">
+            <p>
+                Highly Acknowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction. Proven ability to adapt, construct, and optimize web functionality that improve data retrieval and workflow efficiencies. 
+            </p>
+            </div>    
+        </div>
+        
+        <div class="row  align-items-center card-block">
+        <div class="col-12 col-lg-4 text-center">
+                <h3>Innovative and Dependable</h3>
+            </div>
+        <div class="col-12 col-lg-4 text-center">
+            <img src="icons/pen_circle.png" class="ImgSpace imgWidth">
+
+            </div>
+        <div class="col-12 col-lg-4 text-center">
+            <p>
+               Exceptionally creative and reliable with an outstanding customer service record and superb work ethic. Deep understanding of web development trends and Graphics designing. 
+            </p>
+            </div> 
+            
+        </div>
+        <hr>
+-->
+<!--****DESIGN #3*********************************************************************************************-->
+
+
+ 
+            
+            
+      
+    </div><!-- END OF CONTAINER -->
+</section> 
+
+<!--********************************************************************************************************************-->     
+<section class="parimg-2 blended" id="Skills">  
+  <div class=" align-items-center mainCenter text-center mx-auto">            
+        
+      <div class="container">
+            <h1 class="">My Technical Skills</h1>
+            <hr class="hrWhtlong" />
+            
+            <span class="text-justify paraBorder">
+            <div class="row container align-items-center">
+                <div class="col-12 col-md-4 text-center">
+                    <img src="icons/code9/iconmonstr-code-9-72.png" class="card-block img-responsive rounded-circle">
+                    <h3 class="card-title card-block display-5" >Design</h3>
+                    <hr class="hrWhtlong"/>
+                    <p class="display-6">Profficient in creating Cross Platform Websites with HTML5, CCS3 and Javascript.</p>
+            </div>
+    
+            <div class="col-12 col-md-4 text-center">
+                <img src="icons/code15/iconmonstr-code-15-72.png" class="img-responsive card-block ">
+                <h3 class="card-title card-block display-5">Development</h3>
+                <hr class="hrWhtlong"/>
+                <p class="display-6">Acknowledge in developing and maintaining Databases with PHP, MSSQL, and MySQL</p>
+            </div>
+    
+            <div class="col-12 col-md-4 text-center">
+                <div class="">
+                    <img src="icons/paintbrush/iconmonstr-paintbrush-8-72.png" class="img-responsive rounded-circle card-block">
+                    <h2 class="card-block display-5">Artistry</h2>
+                    <hr class="hrWhtlong"/>
+                    <p class=" display-6">Deep understanding of Content Creating and Designing with Photoshop and Illustrator.</p>
+                </div>
+            </div>
+                
+            </div><!--  END OF ROW  -->
+            </span>
+        </div><!-- END OF CONTAINER -->
+      
+    </div>
+    
+    <!--
+    <div class="container">
+    <div class="card-deck text-center">
+  <div class="card col-12 col-lg-4 card-block">
+    <img class="card-img-top imgWidth"  src="icons/chat.png" alt="Card image cap">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card col-12 col-lg-4 card-block">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card col-12 col-lg-4 card-block">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+    </div> -->
+    
+</section>
+<!--********************************************************************************************************************-->      
+<section id="EDU">
+        <div class="container mainCenter">
+            <h1 class="text-center">My Education </h1>
+            <hr> 
+            <div class="text-center"> <img src="img/DeLaSalle_STCLogo.png" class="img-fluid"></div>
+                            <p class="text-center display-4">De La Salle University - STC</p>
+                    <hr class="hrBlkThin">
+                    <p class="text-center display-5">2010-2014 Bachelors in Information Systems</p>
+        
+        </div> <!-- END OF CONTAINER-->
+</section> 
+<!--********************************************************************************************************************-->      
+<div class="parimg-3 blended card-block"  id="Features">
+    
+        <div class="container mainCenter">
+            <h1 class="text-center" >My Work Experience</h1>
+            <hr class="hrWhtlong" />
+            
+            <div class="row align-items-center">     
+                <div class="col-12 col-md-2 text-right">
+                    <p class="display-5">7 Months</p>
+                    <hr class= "whthrLong" />
+                    <h1 class= "header2e">Apr-Nov (2015)</h1>
+                </div>
+                
+            <div class="col-md-2 text-center">
+                <img src="img/hhcIcon.png" class="img-fluid imgChange" width="70%" >
+            </div>
+                
+            <div class="col-12 col-md-8 text-left">
+                <h1 class="display-5">Hawaii Health Connector <h1 class="header2e">Website and Graphics Specialist</h1></h1>
+                <hr class= "whthrLong" />
+                <ul>
+                    <li class="">Created a user friendly interface for the current website and Monitored website backend data.</li>
+                    <li class=""> Build small modules and added graphics for the websites backend programming.</li>
+                    <li> Created several graphic designs for the company.</li>
+                    <li>Created Data analytic reports from the Company’s social media metadata.</li>
+                    <li>Technologies Used: Wordpress, Photoshop, Brackets, Sublime Text.</li>
+                </ul>
+                <hr class= "whthrLong" />
+            </div> 
+            
+            </div><!-- END OF ROW -->
+
+            <div class="row align-items-center">     
+                <div class="col-12 col-md-2 text-right">
+                    <p class="display-5">5 Months</p>
+                    <hr class= "whthrLong" />
+                    <h1 class= "header2e">Jan-May (2014)</h1>
+                </div>
+                
+            <div class="col-md-2 text-center">
+                <img src="img/RCIcon.png" class="img-fluid imgChange" width="70%" >
+            </div>
+                
+            <div class="col-12 col-md-8 text-left">
+                <h1 class="display-5">Royal Cablevision <h1 class="header2e">Web Developer</h1></h1>
+                <hr class= "whthrLong" />
+                <ul>
+                    <li class="">
+                        Built the Company’s internal web application for Monitoring Internet Plans and Accounting information. 
+                    </li>
+                    <li class="">
+                        Monitored much of the Company’s Accounting Information Systems for Internet and Cable Plans
+                    </li>
+                    <li class="">
+                    Introduction to Open Source Tools and Programming Languages.
+                    </li>
+                    <li class="">
+                    Technologies Used: MySQL, XAMPP, PHP, Bootstrap Framework
+                    </li>
+                    
+                </ul>
+                <hr class= "whthrLong" />
+            </div>      
+                
+            </div><!-- END OF ROW -->
+            
+            
+            <div class="row align-items-center">     
+                <div class="col-12 col-md-2 text-right">
+                    <p class="display-5">5 Months (ea.)</p>
+                    <hr class= "whthrLong" />
+                    <h1 class= "header2e">Apr-Aug (2007) / May/Aug (2006)</h1>
+                </div>
+                
+            <div class="col-md-2 text-center">
+                <img src="icons/NavyAnchor.png" class="img-fluid imgChange" width="70%" >
+            </div>
+                
+            <div class="col-12 col-md-8 text-left">
+                <h1 class="display-5">United States Navy <h1 class="header2e">Supply and Operations Assistant</h1></h1>
+                <hr class= "whthrLong" />
+                <ul>
+                    <li class="">
+                        Assisted with a Military Official with managing Hospital’s supplies and logistics.
+                    </li>
+                    <li class="">
+                        Handled the Hospital's medical supply inventory systems and management.
+                    </li>
+                    <li class="">
+                        Assisted with logging and documenting Medical supplies and department reports. 
+                    </li>
+                    <li class=""></li>
+                </ul>
+                <hr class= "whthrLong" />
+            </div> 
+            </div><!-- END OF ROW --> 
+            <div class="row align-items-center">     
+                <div class="col-12 col-md-2 text-right">
+                    <p class="display-5">5 Months</p>
+                    <hr class= "whthrLong" />
+                    <h1 class= "header2e">May/Aug (2006)</h1>
+                </div>
+                
+            <div class="col-md-2 text-center">
+                <img src="icons/NavyAnchor.png" class="img-fluid imgChange" width="70%" >
+            </div>
+                
+            <div class="col-12 col-md-8 text-left">
+                <h1 class="display-5">United States Navy <h1 class="header2e">Biomedical Technician Assistant</h1></h1>
+                <hr class= "whthrLong" />
+                <ul>
+                    <li class="">
+                        Assisted with a Military Official with Handling biohazard equipment and medical technology.
+                    </li>
+                    <li class="">
+                        Categorizing and re-programming medical software for medical use.
+                    </li>
+                    <li class="">
+                        Troubleshoot programming repairing computers and other medical equipment.
+                    </li>
+                    <li class="">
+                        Technology Used: Visual Basic, Microsoft Access, C, Java
+                    </li>
+                    
+                </ul>
+                <hr class= "whthrLong" />
+            </div> 
+            </div><!-- END OF ROW -->             
+        </div> <!-- END OF CONTAINER--> 
+</div><!-- END OF PARIMG-3 -->
+<!--********************************************************************************************************************-->    
+<div class="parimg-1 blended">            
+        <div class="caption text-center">
+            <span class="paraBorder">
+                        <h1 class="display-4" id="Pricing">IanPortfolio.</h1>
+            <hr class="hrWht" />
+            </span>
+            <div class="container">
+            <span class="text-justify paraBorder text-center">
+            <p>Thank you for taking your time and effort learning everything there is to know about me.</p>
+            <a href="#top" class="btn-outline-trans btn btn-md">TOP</a>
+            </span>
+            </div>
+        </div>
+    </div><!--- END OF SUMMARYCOLOR -->   
+<!--********************************************************************************************************************-->  
+<footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-4">
+                    <p class="card-title text-left" >Links</p>
+                    <hr class="hrWhtLong">
+           
+            <ul class="list-unstyled text-left">
+                <li class=""><a href="#Home">Summary</a></li>
+                <li class=""><a href="#Skills">Technical Skills</a></li>
+                <li class=""><a href="#EDU">Education</a></li>
+                <li class=""><a href="#Features">Work Experiences</a></li>
+                <li class=""><a href="#Pricing">Contact</a></li> 
+            </ul>  
+
+        </div>
+        <div class="col-xs-6 col-sm-4">
+            <p class="card-title text-left" >Contact</p>
+            <hr class="hrWhtLong">
+            <div class="text-left">
+            <address>2322A Kalihi St.
+                <br />Honolulu Hi, 96819
+                <br />Tel: (808) 799-0528
+                <br /><a href="mailto:#">first.last@example.com</a>
+            </address>
+            </div>
+
+
+            <p class="card-title text-left" >Social</p>
+            <hr class="hrWhtLong">
+            <address>    
+            <a href="" class="social-link"><img src="icons/iconmonstr-facebook-5-32.png"></a>
+            <a href="" class="social-link"><img src="icons/iconmonstr-instagram-15-32.png"></a>
+            <a href="" class="social-link"><img src="icons/iconmonstr-linkedin-5-32.png"></a>
+            </address>
+        </div>
+                
+        <div class="col-xs-6 col-sm-4 text-center">
+            <p class="card-title text-left" >More Work</p>
+            <hr class="hrWhtLong">
+                <ul class="list-unstyled text-left">
+                    <li class="">Coming Soon</li>
+                    <li class="">Coming Soon</li>
+                    <li class="">Coming Soon</li>
+                </ul>
+            <p class="card-title text-left" >Blogs</p>
+            <hr class="hrWhtLong">
+            <p class="text-left">
+            <a href="">3DSOLIO</a>
+            </p>
+        </div>        
+        </div><!--  END OF ROW  -->
+        </div><!-- END OF CONTAINER -->
+        <div class="text-center"> &copy; 2017 3DSOLIO</div>
+    </footer>
+ <!--********************************************************************************************************************-->   
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/navChange.js"></script>
+<script src="./js/bootstrap.js"></script>
+
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+<script src="js/scrolling-nav.js"></script>
+</html>
