@@ -1,11 +1,25 @@
     section {
-    padding: 20px 0 ;
-    background: #fff;
+        padding: 20px 0 ;
+        background: #fff;
+}
+    section.white-Background{
+        background-color: #fafafa;
+        color :black;
+}
+    .summaryColor{
+        background-color: darkslategrey;
+        color :white;
+}
+    
+    .big-h{
+        font-size: 4.3em;   
+}
+.black-font{
+    color: black;
 }
 /**=================================
 Highlighting navbar Effect
 =================================**/
-
 .navbar-inverse .navbar-nav .open > .nav-link,
 .navbar-inverse .navbar-nav .active > .nav-link,
 .navbar-inverse .navbar-nav .nav-link.open,
@@ -13,236 +27,226 @@ Highlighting navbar Effect
     color: white;
     border-bottom: 2px solid white;
 }
-.custom-nav {
-    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow:    0px 1px 1px rgba(0, 0, 0, 0.5);
-    box-shadow:         0px 0px 0px rgba(0, 0, 0, 0.5);
-    z-index:100%;
-}
-
-/*=================================
-Footer Effect
-===================================*/
-footer a {
-    color: #ddd;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: #eee;
-    text-decoration: underline;
+    .custom-nav {
+        -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow:    0px 1px 1px rgba(0, 0, 0, 0.5);
+        box-shadow:         0px 0px 0px rgba(0, 0, 0, 0.5);
+        z-index:100%;
 }
 /*=================================
 Parallax Effect
 ===================================*/
-.parimg-1, .parimg-2, .parimg-3 {
-    color: white;
-    position: relative;
-    opacity: 1;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    .parimg-1, .parimg-2, .parimg-3 {
+        color: white;
+        position: relative;
+        opacity: 1;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
-
-.blended {
-    background-color: rgba(0,0,0, 0.5);
-    background-blend-mode: multiply;    
+    .blended {
+        background-color: rgba(0,0,0, 0.5);
+        background-blend-mode: multiply;    
 }
-
-.blendedBlue {
-
-    background-color: rgba(63, 140, 191, 0.5);
-    background-blend-mode: multiply;
+    .white-blended{
+        background-color: rgba(250,250,250, 0.3);
+        background-blend-mode: multiply;
 }
+    .blendedBlue {
 
-.blendedPink{
-    background-color: rgba(191, 63, 131, 0.43);
-    background-blend-mode: multiply;
+        background-color: rgba(63, 140, 191, 0.5);
+        background-blend-mode: multiply;
 }
-
-
-.parimg-1{
-    background-image: url('../img/IMG_1029.JPG');
-    min-height: 700px;
-    max-width: inherit;
+    .blendedPink{
+        background-color: rgba(191, 63, 131, 0.43);
+        background-blend-mode: multiply;
 }
-
-.parimg-2 {
-    background-image: url('../img/IMG_09081.JPG');
-    min-height: 700px;
-    max-width: inherit;
-}
-
-.parimg-3 {
-    background-image: url('../img/IMG_0911.JPG');
-    min-height: 700px;
+    .parimg-1{
+        background-image: url('../img/IMG_1029.JPG');
+        min-height: 700px;
         max-width: inherit;
 }
-
+    .parimg-2 {
+        background-image: url('../img/IMG_09081.JPG');
+        min-height: 700px;
+        max-width: inherit;
+}
+    .parimg-3 {
+        background-image: url('../img/IMG_0911.JPG');
+        min-height: 700px;
+        max-width: inherit;
+}
 /*=================================
 Custom Button Effect
 ===================================*/
-.btn-outline-trans {
-    color: #fff;
-    background-image: none;
-    background-color: transparent;
-    border-color: #fff;
+    .btn-outline-trans {
+        color: #fff;
+        background-image: none;
+        background-color: transparent;
+        border-color: #fff;
 }
 
-.btn-outline-trans:hover {
-    color: #000;
-    background-color: #fff;
-    border-color: #f0f0f0;
+    .btn-outline-trans:hover {
+        color: #000;
+        background-color: #fff;
+        border-color: #f0f0f0;
 }
 
-.bg-transpar{
-    background-color: transparent;
-    color: #fff;
-   transition: background-color 0.5s ease 0s;
+    .bg-transpar{
+        background-color: transparent;
+        color: #fff;
+        transition: background-color 0.5s ease 0s;
 }
-
-
 /**========================================
 Card-block Codes to add spaces for cards 
 ========================================**/
-.card-block {
-    margin-bottom: 15px;
+    .card-block {
+        margin-bottom: 15px;
 }
-.card-change{
-    margin: 10px 0 10px;
+    .card-change{
+        margin-left: 5px;
+        margin-right: 5px;
 }
-
-.ImgSpace {
-    margin: 25px 25px;
+    .ImgSpace {
+        margin: 25px 25px;
 }
-
 /**========================================
 Gradient transparent - color - transparent 
 ========================================**/
-
-hr.style-two {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    hr.style-two {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
-
-hr.style-wht {
-    border: 0;
-    width: 50%;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
-    background-image: -moz-linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
-    background-image: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    hr.style-wht {
+        border: 0;
+        width: 50%;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+        background-image: -moz-linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+        background-image: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
-
-.display-5 {
-  font-size: 1.5rem;
-  font-weight: 300;
-  line-height: 1.1;
+    .display-5 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.1;
 }
-
-.display-6 {
-  font-size: 1.0rem;
-  font-weight: 300;
-  line-height: 1.3;
+    .display-6 {
+        font-size: 1.0rem;
+        font-weight: 300;
+        line-height: 1.3;
 }
-
-.display-7 {
-  font-size: 0.9rem;
-  font-weight: 300;
-  line-height: 1.3;
+    .display-7 {
+        font-size: 0.9rem;
+        font-weight: 300;
+        line-height: 1.3;
 }
-
 /**================================
 Customer Headers
 ==================================**/
 /**** Custom Black  Header Line ****/
-.hrBlk{
-    width :50%;
+    .hrBlk{
+        width :50%;
 }
-.hrBlkLong{
-    border: 0.5px solid #000;
-    width :100%;
+    .hrBlkLong{
+        border: 0.5px solid #000;
+        width :100%;
+}
+    .hr-Card{
+        width: 100%;
 }
 /**** Custom White Header Line ****/
-.hrWhtlong{
-    border: 1px solid #ccc;
-    width :100%;
+    .hrWhtlong{
+        border: 1px solid #ccc;
+        width :100%;
 }
 
-.hrWht{
-    border: 0.5px solid #ccc;
-    width :75%;
+    .hrWht{
+        border: 0.5px solid #ccc;
+        width :75%;
+}
+.hr-length-50{
+        border: 1px solid #fff;
+        width :50%;
 }
 
-.hrBlkThin{
-    border: 0.5px solid #000;
-    width :75%;
+.hr-length-25{
+        border: 1px solid #fff;
+        width :25%;
+}
+
+    .hrBlkThin{
+        border: 0.5px solid #000;
+        width :75%;
 }
 
 
-.whthrLong{
-    border: 1px solid #fff;
-    width :100%;
+    .whthrLong{
+        border: 1px solid #fff;
+        width :100%;
 }
-.whthrLong2{
-    border: 1px solid #f0f0f0;
-    width :100%;
-}
-
-span.paraBorder{
-    margin: 50px 0px;
-    color: #fff;
-    padding: 0px 0px 0px;
-    font-size: 20px;
-    letter-spacing: 3px;
+    .whthrLong2{
+        border: 1px solid #f0f0f0;
+        width :100%;
 }
 
-.caption {
-    position: absolute;
-    left: 0;
-    top: 30%;
-    padding: 0px;
-    width: 100%;
-    text-align: center;
-    color: #fff;
+    span.paraBorder{
+        margin: 50px 0px;
+        color: #fff;
+        padding: 0px 0px 0px;
+        font-size: 20px;
+        letter-spacing: 3px;
+}
+
+    .caption {
+        position: absolute;
+        left: 0;
+        top: 30%;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+        color: #fff;
 }
 
 /**========================================
 Custom Text Code 
 ========================================**/
-.text-muted2{
-  color: #d9d9d9;  
+    .text-muted2{
+        color: #d9d9d9;  
 }
 
-.border-right {
-    border-right: 1px solid white;
+    .border-right {
+        border-right: 1px solid white;
 }
 /**========================================
  Footer Custom Code 
 ========================================**/
-.footer{
-     background-color: darkslategrey;
+    .footer{
+        background-color: darkslategrey;
 }
-.footer-link {
-    display: block;
-    padding: 0.5em .5em;
+    .footer-link {
+        display: block;
+        padding: 0.5em .5em;
 }
-.social-link {
-    margin-left: 10px; 
+    footer {
+        background: darkslategrey;
+        color: #ddd;
+        padding: 30px 0 30px;
+        font-size: 0.8em;
+    
 }
-.summaryColor{
-    background-color: darkslategrey;
-    color :white;
+    footer a {
+        color: #ddd;
+        text-decoration: none;
 }
 
-footer {
-    background: #000;
-    color: #ddd;
-    padding: 30px 0 30px;
-    
+    footer a:hover {
+        color: #eee;
+        text-decoration: underline;
+}
+    .ft-space{
+        margin: 0 10px 0 10px;
 }
 
 /**========================================
@@ -261,7 +265,10 @@ Display-# function changes when browser changes
         font-size: 1.7em;
     }
     .display-4 {
-	   font-size: 1.9em;
+        font-size: 1.9em;
+    }
+        .display-5{
+        font-size: 1em
     }
     .mainCenter{
         padding: 65px 0px 35px 0px;
@@ -270,8 +277,22 @@ Display-# function changes when browser changes
         width: 150px;
     }
     .title-adjust{
-         text-align: center !important;
+        text-align: center !important;
     }
+    h1.hBold{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+        .header2e{
+        font-size: 1.2em;
+    }
+    h1.year-date{
+        display:inline;
+        float:left;
+        text-align: left;
+        margin-right: 10px;
+    }
+
 }
 
 @media (min-width: 32em) {
@@ -291,7 +312,9 @@ Display-# function changes when browser changes
     .display-4 {
 	   font-size: 1.9em;
     }
-    
+    .display-5{
+        font-size: 1.3em
+    }
     .imgChange{
         width: 0%;
         height: auto;
@@ -305,8 +328,23 @@ Display-# function changes when browser changes
     img.imgWidth{
         width: 200px;
     }
-        .title-adjust{
+    .title-adjust{
          text-align: center !important;
+    }
+    h1.hBold{
+        font-size: 3rem;
+        text-align: center;
+    }
+    h1.year-date{
+        display:inline;
+        float:left;
+        text-align: left;
+        margin-right: 10px;
+    }
+    .header-change{
+        display:inline;
+        float:left;
+        margin-right: 5px;
     }
 }
 
@@ -342,8 +380,16 @@ Display-# function changes when browser changes
     img.imgWidth{
         width: 200px;
     }
-        .title-adjust{
+    .title-adjust{
          text-align: left !important;
+    }
+    h1.hBold{
+        font-size: 2.3rem;
+        text-align: right;
+    }
+    h1.hBold2{
+        font-size: 2.0rem !important;
+        text-align: right;
     }
 }
 
@@ -360,10 +406,10 @@ Display-# function changes when browser changes
         height: auto;
     }
     .header2e{
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
     .mainCenter{
-    padding: 65px 0 35px;
+        padding: 65px 0 35px;
     }
     hr .custom-1{
         -webkit-box-sizing: content-box;
@@ -375,6 +421,25 @@ Display-# function changes when browser changes
     img.imgWidth{
         width: 150px;
     }
+    h1.hBold{
+        font-size: 3.5rem;
+        text-align: right;
+    }
+    h1.hBold2{
+        font-size: 2.5rem !important;
+        text-align: right;
+    }
+    h1.year-date{
+        display:inline;
+        float:right;
+        text-align: right;
+        margin-right: 0px;
+    }
+    .header-change{
+        display:inline;
+        float:left;
+        margin-right: 5px;
+    }
 }
 /* Extra large devices (large desktops, 75em and up)*/
 @media (min-width: 75em) {
@@ -382,13 +447,13 @@ Display-# function changes when browser changes
 	body {
 	}
     .imgChange{
-    width: 75%;
-    height: auto;
+        width: 75%;
+        height: auto;
     }
 
     .mainCenter{
-    padding: 65px 0 35px;
-}
+        padding: 65px 0 35px;
+    }
     img.imgWidth{
         width: 150px;
     }
@@ -399,24 +464,270 @@ Display-# function changes when browser changes
         overflow: visible;
         visibility: hidden;
     }
+    h1.hBold {
+        font-size: 3.5rem;
+        text-align: right;
+    }
+    h1.hBold2{
+        font-size: 3rem !important;
+        text-align: right;
+    }
+    .header-change{
+        display:inline;
+        float:left;
+        margin-right: 5px;
+    }
+    h1.year-date{
+        display:inline;
+        float:right;
+        test text-align: right;
+        margin-right: 0px;
+    }
 }
 /**========================================
 Progress-bar Changes
 ========================================**/
-.textbox {
-  height: 700px;
+    .textbox {
+        height: 700px;
 }
 
-.progress {
-  margin: 10px 10px;
+    .progress {
+        margin: 10px 10px;
 }
 
-.progress-bar {
-    width: 0;
-    height: 20px;
+    .progress-bar {
+        width: 0;
+        height: 20px;
 }
 
-.target {
-  height: auto;
+    .target {
+        height: auto;
+}
+    .target-2 {
+        height: auto;
+}
+/**========================================
+Progress-bar Color Changes
+========================================**/
+    .bg-HTML5{
+        background-color: #e44d26;
+}
+    .bg-CSS3{
+        background-color: #e7a42b; 
+}
+    .bg-JS{
+        background-color: #1572b6;
+}
+    .bg-SQL{
+        background-color: #134e61;
+}
+    .bg-PHP{
+        background-color: #6c7eb7;
+}
+    .bg-PS{
+        background-color: #152b63;
+}
+    .bg-Ai{
+        background-color: #f37021;
+}
+/**========================================
+Progress-bar Color Changes
+========================================**/
+    img.social-link:hover {
+        opacity: 0.6;
+}
+    .social-link {
+        margin:inherit; 
+}
+    .social-size {
+        width: 40px !important;
+        height: 40px !important;
+}
+/**========================================
+Fade JS  Changes
+========================================**/
+.fade-right { 
+    float: left;
+    position: relative;
+    right:  200px !important;
+    display:none; }
+
+/**
+=====================================================================
+slideRight move
+=====================================================================
+**/
+.element-to-hide{
+    visibility:hidden;
 }
 
+.slideRight {
+    visibility: visible;
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    
+
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-150%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(8%);
+    }
+    65% {
+        transform: translateX(-4%);
+    }
+    80% {
+        transform: translateX(4%);
+    }
+    95% {
+        transform: translateX(-2%);
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes slideRight {
+    0% {
+        -webkit-transform: translateX(-150%);
+                opacity: 0;
+    }
+    50% {
+        -webkit-transform: translateX(8%);
+    }
+    65% {
+        -webkit-transform: translateX(-4%);
+    }
+    80% {
+        -webkit-transform: translateX(4%);
+    }
+    95% {
+        -webkit-transform: translateX(-2%);
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+        opacity: 1;
+    }
+}
+/**
+=====================================================================
+slideLeft move
+=====================================================================
+**/
+.slideLeft {
+    visibility: visible;
+    animation-name: slideLeft;
+    -webkit-animation-name: slideLeft;
+    animation-duration: 1.3s;
+    -webkit-animation-duration: 1.3s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+@keyframes slideLeft{
+    0% {
+        transform: translateX(150%);
+    }
+    50% {
+        transform: translateX(-8%);
+    }
+    65% {
+        transform: translateX(4%);
+    }
+    80% {
+        transform: translateX(-4%);
+    }
+    95% {
+        transform: translateX(2%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@-webkit-keyframes  slideLeft{
+    0% {
+        transform: translateX(150%);
+    }
+    50% {
+        transform: translateX(-8%);
+    }
+    65% {
+        transform: translateX(4%);
+    }
+    80% {
+        transform: translateX(-4%);
+    }
+    95% {
+        transform: translateX(2%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+
+/**
+=====================================================================
+Fade-Up move
+=====================================================================
+**/
+.fade-up{
+    visibility: visible;
+    animation-name: fade-up;
+    -webkit-animation-name: fade-up;
+    animation-duration: 0.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@keyframes fade-up{
+    0% { 
+        transform:  translateY(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes  fade-up{
+    0% { 
+        transform:  translateY(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+/**========================================
+unused code
+========================================**/
+    .card2 {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0.25rem;
+        color: black;
+}
